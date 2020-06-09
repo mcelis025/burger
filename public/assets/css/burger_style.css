@@ -1,3 +1,22 @@
 body {
-    background-color: yellow;
+    background-color: gold;
+    text-align: center;
+}
+
+#title {
+    font-size: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 5%;
+    font-family: fantasy;
+}
+
+#burg {
+    width: 25%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+ul {
+    list-style-type: none;
 }
