@@ -7,16 +7,48 @@ body {
     font-size: 100px;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 5%;
+    margin-top: 2%;
     font-family: fantasy;
 }
 
 #burg {
-    width: 25%;
+    width: 20%;
     margin-top: 0;
     padding-top: 0;
 }
 
 ul {
     list-style-type: none;
+}
+
+.secNames {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+.notDevoured {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    float: left;
+    position: relative;
+    width: 30%;
+    padding-left: 20%;
+}
+
+.devouredBurgs {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    float: right;
+    position: relative;
+    width: 30%;
+    padding-right: 20%;
+}
+
+.createBurger {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    position: relative;
+    clear: both;
+    width: 100%;
 }

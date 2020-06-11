@@ -4,7 +4,7 @@
 </div>
 
 <div class="notDevoured">
-    <h2>Your Burgers</h2>
+    <h2 class="secNames">Your Burgers</h2>
     <ul>
         {{#each burgers}}
         {{#unless devoured}}
@@ -14,8 +14,8 @@
     </ul>
 </div>
 
-<div class="devoured">
-    <h2>Devoured Burgers</h2>
+<div class="devouredBurgs">
+    <h2 class="secNames">Devoured Burgers</h2>
     <ul>
         {{#each burgers}}
         {{#if devoured}}
@@ -26,13 +26,13 @@
 </div>
 
 <div class="createBurger">
-    <h2>Create a Burger</h2>
+    <h2 class="secNames">Create a Burger</h2>
     <form class="create-form">
         <div class="form-group">
             <label for="burger">Burger Name:</label>
             <input type="text" id="burger" name="burger_name">
         </div>
         <br>
-        <button type="submit">Submit Order</button>
+        <button type="submit" id="subOrder">Submit Order</button>
     </form>
 </div>

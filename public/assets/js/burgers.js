@@ -1,10 +1,9 @@
 $(function() {
   $(".changeDevoured").on("click", function(event) {
     var id = $(this).data("id");
-    var newData = $(this).data("newDevoured");
-
+    
     var newBurger = {
-      devoured: newData
+      devoured: true
     };
 
     // Send the PUT request.
@@ -18,12 +17,12 @@ $(function() {
     );
   });
 
-  $(".create-form").on("submit", function(event) {
+  $("#subOrder").on("click", function(event) {
     event.preventDefault();
 
     var newBurger = {
       burger_name: $("#burger").val().trim(),
-      devoured: false
+      devoured: 0
     };
 
     // Send the POST request.
