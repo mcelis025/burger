@@ -11,7 +11,7 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 Your app will store every burger in a database, whether devoured or not.  
 
 # Preview
-![alt text](assets/img/burger.png "Burger")
+![alt text](./public/assets/img/burgerSample.png "Burger")
 
 # Link to Deployed Site
   * [Burger](https://dry-fjord-35999.herokuapp.com/)
